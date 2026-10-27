@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Original artwork: a browser window whose title bar carries a custom name tag. -->
+  <rect x="6" y="12" width="52" height="40" rx="7" fill="none" stroke="#5686fe" stroke-width="3"/>
+  <line x1="6" y1="24" x2="58" y2="24" stroke="#5686fe" stroke-width="3"/>
+  <circle cx="14" cy="18" r="2" fill="#5686fe"/>
+  <circle cx="21" cy="18" r="2" fill="#5686fe"/>
+  <rect x="13" y="32" width="30" height="11" rx="5.5" fill="#5686fe"/>
+  <circle cx="19" cy="37.5" r="2.2" fill="#ffffff"/>
+  <line x1="24" y1="37.5" x2="38" y2="37.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

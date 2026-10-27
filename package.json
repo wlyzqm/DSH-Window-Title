@@ -1,0 +1,57 @@
+{
+  "name": "dsh-window-title",
+  "version": "1.0.0",
+  "description": "Custom browser-tab title for the DeepSeek Harness Web GUI, configurable in Settings → General. 自定义 DeepSeek Harness 网页标签页标题，会话中显示为「自定义名称 - 会话标题」。",
+  "author": "ZotinColin (wlyzqm)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlyzqm/DSH-Window-Title.git"
+  },
+  "homepage": "https://github.com/wlyzqm/DSH-Window-Title#readme",
+  "bugs": {
+    "url": "https://github.com/wlyzqm/DSH-Window-Title/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "window-title",
+    "browser-tab",
+    "窗口标题"
+  ],
+  "type": "module",
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ]
+    }
+  },
+  "license": "MIT"
+}

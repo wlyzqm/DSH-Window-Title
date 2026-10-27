@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Window Title",
+    "description": "Adds a Settings → General preference that customizes the app name shown in the browser tab. During a session the tab reads \"Custom name - Session title\"; leave empty to restore the default DeepSeek Harness."
+  }
+}

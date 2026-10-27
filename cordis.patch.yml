@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-window-title
+      name: dsh-window-title
+      config: {}
